@@ -1,0 +1,2 @@
+#!/bin/sh
+"C:\Program Files\Sublime Text 2\sublime.exe" $1 &
