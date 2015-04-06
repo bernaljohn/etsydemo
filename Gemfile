@@ -12,6 +12,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'paperclip', '~> 3.0'
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "coffee-script-source", "1.8.0"
+gem "figaro"
 
 group :production do 
 	gem 'pg'
