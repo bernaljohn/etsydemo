@@ -14,5 +14,7 @@ class Listing < ActiveRecord::Base
   #numericality checks that what is inputed is a number
     validates :price, numericality: {greater_than: 0}
     validates_attachment_presence :image
+
+    belongs_to :user
 end
 
