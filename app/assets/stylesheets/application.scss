@@ -56,7 +56,12 @@ body {
 }
 
 .jumbotron {
-	background-image: url('https://www.dropbox.com/s/dgx5jtkxe8rxy0g/hemstitched.jpg?raw=1');
+	background-image: url('https://www.dropbox.com/s/65iuxze6c5jx60n/Women%20Sewing%20Fish%20Net.jpg?raw=1');
+	  min-height : 100%;
+	  background-size: 100% 260%;
+	  background-repeat:no-repeat;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
 	h1, h2 {
 		font-family: guardian-egyptt, georgia, serif;
 	}
